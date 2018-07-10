@@ -106,7 +106,6 @@ public class GLPanorama extends RelativeLayout implements SensorEventListener {
                 mHandler.sendMessage(msg);
             }
             timestamp = sensorEvent.timestamp;
-
         }
     }
 
